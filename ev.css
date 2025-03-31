@@ -1,0 +1,172 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(at center,rgb(232, 255, 232),white);
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background: #2ecc71;
+}
+
+/* Form Container */
+.form-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* User Details & Video Section */
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* User Details */
+.user-details {
+    width: 50%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.user-details input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Video Section */
+.video-section {
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+
+.video-section video {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Vehicle Details and Conversion Details */
+.vehicle-details, .conversion-details {
+    margin-top: 25px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+.submit-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-section button {
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-section button:hover {
+    background: #2ecc71;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #34495e;
+    color: white;
+}
+
+input, select, textarea {
+    border-radius: 20px;
+    border: 1px solid rgb(182, 182, 182);
+    text-align: center;
+}
+
+input[type='file'] {
+    border: none;
+}
+
+label {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #27ae60;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Range Slider Styling */
+input[type="range"] {
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #27ae60;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #27ae60;
+    cursor: pointer;
+}
+
+#rangeValue {
+    font-weight: bold;
+    color: #27ae60;
+}
